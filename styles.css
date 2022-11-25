@@ -53,8 +53,19 @@ li {
 }
 
 main img {
-    min-width: 90%;
+    
 }
+
+section#left {
+    float: left;
+    width: 50%;
+}
+
+section#right {
+    float: right;
+    width: 50%;
+}
+
 
 form {
     text-align: left;
@@ -93,4 +104,12 @@ input[type=submit] {
 	font-size: 18px;
 	box-shadow: -6px 6px 10px #363432;
 	width: 100%;
+}
+
+fieldset input {
+    margin: 5px;
+}
+
+footer {
+    clear: float;
 }
