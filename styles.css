@@ -1,0 +1,96 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+    box-sizing: border-box;
+    padding:0;
+    margin: 0;
+}
+
+header, footer {
+    width: 1280px;
+    text-align: center;
+}
+
+body {
+    max-width: 1280px; 
+	margin: 0 auto !important; 
+	float: none !important; 
+}
+
+img {
+    width: 300px;
+    height: auto;
+}
+
+#grid-container {
+    width: 1280px;
+    text-align: center;
+    display: grid;
+}
+
+nav {
+    text-align: center;
+}
+
+nav li {
+    list-style: none;
+    display: inline;
+    padding-right: 150px;
+}
+
+a {
+    margin-top: 8px;
+    margin-bottom: 8px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #141a1a;
+    font-weight: bold;
+}
+
+li {
+    list-style: none;
+}
+
+main img {
+    min-width: 90%;
+}
+
+form {
+    text-align: left;
+	width: 350px;
+	padding: 16px;
+    background-color: lightgray;
+	margin: auto;
+	margin-top: 16px;
+	margin-bottom: 16px;
+	border-radius: 4px;
+}
+
+input[type=name], input[type=address], input[type=city], input[type=state], input[type=zip], input[type=phone], input[type=email], input[type=comments], input[type=submit] select {
+    display: block;
+    width: 100%;
+ }
+
+ fieldset {
+	bottom-margin: 24px;
+	border-radius: 4px;
+	border-color: #363432;
+	display: grid;
+	row-gap: 8px;
+	grid-template: 1fr;
+}
+
+legend {
+	font-weight: bold;
+    text-align: center;
+}
+
+input[type=submit] {
+	background-color: #196774;
+	border: none;
+	color: white;
+	font-size: 18px;
+	box-shadow: -6px 6px 10px #363432;
+	width: 100%;
+}
