@@ -1,5 +1,5 @@
 * {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif
     font-size: 18px;
     line-height: 1.5;
     box-sizing: border-box;
@@ -16,19 +16,23 @@ body {
     max-width: 1280px; 
 	margin: 0 auto !important; 
 	float: none !important; 
-    background-color: #b4b891;
 }
 
 h1 {
-    margin: 30px;
+    margin: 20px;
     padding-top: 20px;
     font-size: 32px;
     color: #6f223d;
-
 }
 
 h2 {
-    margin: 30px;
+    padding-top: 20px;
+    font-size: 24px;
+    color: #6f223d;
+    background-color: lightgray;
+}
+
+h3 {
     padding-top: 20px;
     font-size: 24px;
     color: #6f223d;
@@ -64,6 +68,11 @@ li {
     list-style: none;
 }
 
+main {
+    border: 50px;
+    padding-bottom: 50px;
+}
+
 main img {
     max-width: 100%;  
     height: auto;  
@@ -73,12 +82,14 @@ section#left {
    float: left;
    width: 50%; 
    padding-right: 10px;
+   padding-top: 50px;
 }
 
 section#right {
     float: right;
     width: 50%;
     padding-left: 10px;
+    padding-top: 50px;
 }
 
 
