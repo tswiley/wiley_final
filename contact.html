@@ -7,10 +7,11 @@
     <meta name="author" content="Travis Wiley">
     <link href="styles.css" rel="stylesheet">
     <title>Wok Asian Cuisine</title>
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
 </head>
 <body>
     <header>
-        <h1>Wok Asian Cuisine</h1>
+        <h1><a href="index.html">Wok Asian Cuisine</a></h1>
     </header>
     
     <div id="grid-container">
@@ -22,28 +23,27 @@
                 <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
-
+    </div>
         <main>
+            <h2 class="contact-h2" id="contact-h2">Contact Us</h2>
+            <p class="contact-questions" id="contact-questions">Do you have dietary concerns? Questions about an upcoming event? Drop us a line, and we'll get back to you soon!</p>
             <img src="contact-page/contact-img-optional3.jpg" alt="Stairs">
-            <h2>Contact Us</h2>
-            <p>Do you have dietary concerns? Questions about an upcoming event? Drop us a line, and we'll get back to you soon!</p>
-            <li><a href="#">Our Menu</a></li>
-            
+
             <form action="https://wp.zybooks.com/form-viewer.php" target="_blank" method="GET">
                 
                 <p>
                     <label for="name">Name*</label>
-                    <input type="name" id="name" name="fullname" required>
+                    <input type="text" id="name" name="fullname" required>
                 </p>
 
                 <p>
                     <label for="address">Address</label>
-                    <input type="address" id="address" name="address">
+                    <input type="text" id="address" name="address">
                 </p>
 
                 <p>
                     <label for="city">City</label>
-                    <input type="city" id="city" name="city">
+                    <input type="text" id="city" name="city">
                 </p>
 
                 <p>
@@ -105,36 +105,38 @@
 
                 <p>
                     <label for="zip">Zip Code</label>
-                    <input type="zip" id="zip" name="zip">
+                    <input type="text" id="zip" name="zip">
                 </p>
 
                 <p>
-                    <label for="phone">Phone</label>
-                    <input type="phone" id="phone" name="phone" required>
+                    <label for="phone">Phone*</label>
+                    <input type="text" id="phone" name="phone" required>
                 </p>
 
                 <p>
                     <label for="email">Email*</label>
-                    <input type="email" id="email" name="email" required>
+                    <input type="text" id="email" name="email" required>
                 </p>
                 <fieldset>
                 
                 <legend>Preferred Method of Contact</legend>
                 
                 <div>
-                    <input id="email" type="radio" name="email" value="email">
+                    <input id="text" type="radio" name="email" value="email">
                     <label for="email">Email</label>
                 </div>
                 
+
                 <div>
-                    <input id="phone" type="radio" name="phone" value="phone">
+                    <input id="text2" type="radio" name="phone" value="phone">
                     <label for="phone">Phone</label>
                 </div>
+
                 </fieldset>
                 
                 <p>
                   <label for="comments">Comments</label>
-                   <textarea id="comments" name="comments" rows="4" cols="33.5"></textarea>
+                   <textarea id="comments" name="comments" rows="4" cols="33"></textarea>
                </p>
                     
                <p>

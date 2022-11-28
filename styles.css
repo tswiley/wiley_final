@@ -1,5 +1,5 @@
 * {
-    font-family: Arial, Helvetica, sans-serif
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
     line-height: 1.5;
     box-sizing: border-box;
@@ -20,16 +20,31 @@ body {
 
 h1 {
     margin: 20px;
-    padding-top: 20px;
-    font-size: 32px;
+    padding-top: 10px;
     color: #6f223d;
 }
 
+h1 a {
+    font-size: 32px;
+    text-decoration: none;
+}
+
 h2 {
-    padding-top: 20px;
     font-size: 24px;
     color: #6f223d;
-    background-color: lightgray;
+}
+
+#index-h2 {
+    background-color: #dcc97f;
+}
+
+#contact-h2 {
+    padding-top: 25px;
+    padding-bottom: 5px;
+}
+
+#contact-questions {
+    padding-bottom: 25px;
 }
 
 h3 {
@@ -47,12 +62,14 @@ h3 {
 nav {
     text-align: center;
     padding: 30px;
+    background-color: #dcc97f;
 }
 
 nav li {
     list-style: none;
     display: inline;
-    padding-right: 150px;
+    padding-right: 100px;
+    padding-left: 100px;
 }
 
 a {
@@ -62,20 +79,30 @@ a {
     margin-right: auto;
     color: #141a1a;
     font-weight: bold;
+    color: #6f223d;
 }
 
-li {
+a:hover {
+    background-color: #ededed;
+}
+
+ul li {
     list-style: none;
 }
 
 main {
-    border: 50px;
+    border: 20px;
     padding-bottom: 50px;
+    text-align: center;
 }
 
 main img {
     max-width: 100%;  
     height: auto;  
+}
+
+main li {
+    background-color: #dcc97f;
 }
 
 section#left {
@@ -85,11 +112,21 @@ section#left {
    padding-top: 50px;
 }
 
+section#left img {
+    max-width: 100%;
+    height: 500px;
+}
+
 section#right {
     float: right;
     width: 50%;
     padding-left: 10px;
     padding-top: 50px;
+}
+
+section#right img {
+    max-width: 100%;
+    height: 500px;
 }
 
 
@@ -104,18 +141,17 @@ form {
 	border-radius: 4px;
 }
 
-input[type=name], input[type=address], input[type=city], input[type=state], input[type=zip], input[type=phone], input[type=email], input[type=comments], input[type=submit] select {
+input[type=text] {
     display: block;
     width: 100%;
  }
 
  fieldset {
-	bottom-margin: 24px;
+	margin-bottom: 24px;
 	border-radius: 4px;
 	border-color: #363432;
 	display: grid;
 	row-gap: 8px;
-	grid-template: 1fr;
 }
 
 legend {
@@ -124,7 +160,7 @@ legend {
 }
 
 input[type=submit] {
-	background-color: #196774;
+	background-color: #6f223d;
 	border: none;
 	color: white;
 	font-size: 18px;
@@ -136,6 +172,6 @@ fieldset input {
     margin: 5px;
 }
 
-footer {
-    clear: float;
+section p {
+    padding-bottom: 50px;
 }
