@@ -2,12 +2,13 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="description" content="Wok Asian Cuisine Contact Us">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Travis Wiley">
     <link href="styles.css" rel="stylesheet">
     <title>Wok Asian Cuisine</title>
-    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
 </head>
 <body>
     <header>
@@ -20,7 +21,7 @@
                 <li><a href="index.html">Home</a></li>
                 <li><a href="#">Our Menu</a></li>
                 <li><a href="#">Oder Now</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <li><a href="contact.html" class='active-page'>Contact</a></li>
             </ul>
         </nav>
     </div>
@@ -29,7 +30,7 @@
             <p class="contact-questions" id="contact-questions">Do you have dietary concerns? Questions about an upcoming event? Drop us a line, and we'll get back to you soon!</p>
             <img src="contact-page/contact-img-optional3.jpg" alt="Stairs">
 
-            <form action="https://wp.zybooks.com/form-viewer.php" target="_blank" method="GET">
+            <form action="https://wp.zybooks.com/form-viewer.php" target="_blank" method="POST">
                 
                 <p>
                     <label for="name">Name*</label>
@@ -139,6 +140,10 @@
                    <textarea id="comments" name="comments" rows="4" cols="33"></textarea>
                </p>
                     
+               <p>
+                    <input type="reset" value="Reset Form"></p><br>
+               </p>
+
                <p>
                     <input type="submit" value="Submit Form">
                </p>

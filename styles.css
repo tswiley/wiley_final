@@ -82,6 +82,10 @@ a {
     color: #6f223d;
 }
 
+#grid-container a.active-page {
+    background-color: #ededed;
+}
+
 a:hover {
     background-color: #ededed;
 }
@@ -157,6 +161,15 @@ input[type=text] {
 legend {
 	font-weight: bold;
     text-align: center;
+}
+
+input[type=reset] {
+    background-color: white;
+	border: none;
+	color: red;
+	font-size: 18px;
+	box-shadow: -6px 6px 10px #363432;
+	width: 100%;
 }
 
 input[type=submit] {
